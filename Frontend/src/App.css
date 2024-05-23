@@ -1,0 +1,23 @@
+a/* Explore.css */
+.no-stock-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center vertically */
+}
+
+.message {
+  font-weight: bold;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out; /* Apply fadeIn animation */
+}
+
+/* Define fadeIn animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
